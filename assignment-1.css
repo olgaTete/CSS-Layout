@@ -8,4 +8,81 @@
     align-items
  */
 
+header {
 
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
+
+#head-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    gap: 20px;
+    flex-basis: 100%;
+    color: rgb(13, 13, 14);
+    padding-top: 0px;
+    height: 40px;
+    
+}
+
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 5px;
+    padding-right: 50px;
+
+    }
+
+li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+div #promotion {
+    background-color: crimson;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 100%;
+
+}
+
+#sub-menu {
+display: flex; 
+flex-direction: row;
+background-color: darkgray;
+flex-basis: 100%;
+justify-content: center;
+align-items:center;
+color: white;
+height: 35px;
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#promotion a {
+    text-decoration: none;
+    color:white;
+}
+
+#sub-menu a {
+    color:white;
+}
+
+#site-brand {
+    font-weight: bold;
+}

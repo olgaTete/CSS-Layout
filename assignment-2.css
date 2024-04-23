@@ -7,11 +7,6 @@
 
     
  */
-body {
-    display: inline-flex;
-    flex-direction: column;
-    
-}
 
 div  {
     display: inline-flex;
@@ -22,14 +17,13 @@ div  {
     padding: 0;
     margin: 0;
     line-height: 150%;
-    position: absolute; 
+    position: relative; 
     top: 65px;
 }
 
-#Sale {
+div > div {
     display: flex;
-    order: -1;
-    width: fit-content;
+    flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;
